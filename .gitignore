@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments / secrets
+.venv/
+venv/
+.env
+
+# Local database (keep the empty folder so SQLite can create the file)
+backend/data/*
+!backend/data/.gitkeep
